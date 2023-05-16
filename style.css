@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto+Condensed&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --font: 'Bruno Ace SC', cursive;
+    --font2: 'Roboto Condensed', sans-serif;
+
+}
+
+.body {
+    height: 100vh;
+    background: #000;
+    color: #FFF;
+}
+
+.header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFF;
+    gap: 40vw;
+    box-shadow: 0px 2px 2px 0px white;
+}
+
+.logo {
+    font-family: var(--font);
+    font-size: 2rem;
+    background: -webkit-linear-gradient(45deg, rgb(255, 85, 85), rgb(255, 166, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.buttons {
+    display: flex;
+    gap: 2vw;
+}
+
+.link {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.link:hover {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1.5rem;
+    box-shadow: 0px 2px yellow;
+}
+
+
+.bg {
+    width: 35vw;
+    ;
+    position: absolute;
+    left: 60vw;
+    top: 20vh;
+}
+
+.hero {
+    display: flex;
+    height: 80vh;
+    width: 50vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: 10vw;
+}
+
+.smallheading {
+    color: rgb(255, 255, 101);
+    font-family: var(--font2);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.heading {
+    font-size: 2.2rem;
+    font-family: var(--font);
+    width: 10ch;
+}
+
+.description {
+    font-size: 1.2rem;
+    width: 40ch;
+    color: grey;
+}
+
+.contact {
+    background-color: rgb(51, 176, 51);
+    color: #FFF;
+    font-size: 1.5rem;
+    padding: 1em;
+    font-weight: bold;
+    border-radius: 100px;
+    margin-top: 5vh;
+}
+
+.contact:hover {
+    background-color: white;
+    color: rgb(51, 176, 51);
+    font-size: 1.5rem;
+    padding: 1em;
+    font-weight: bold;
+    border-radius: 100px;
+    margin-top: 5vh;
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        font-size: 0.8rem;
+    }
+
+    .link {
+        font-size: .8rem;
+    }
+
+    .link:hover {
+        font-size: .8rem;
+    }
+
+    .smallheading {
+        font-size: .5rem;
+    }
+
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .description {
+        font-size: .6rem;
+    }
+
+    .contact {
+        font-size: .8rem;
+
+    }
+
+    .contact:hover {
+        font-size: .8rem;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .link {
+        font-size: 1rem;
+    }
+
+    .link:hover {
+        font-size: 1rem;
+    }
+
+    .smallheading {
+        font-size: .7rem;
+    }
+
+    .heading {
+        font-size: 1.7rem;
+    }
+
+    .description {
+        font-size: .7rem;
+    }
+
+    .contact {
+        font-size: 1rem;
+
+    }
+
+    .contact:hover {
+        font-size: 1rem;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .logo {
+        font-size: 1.8rem;
+    }
+
+    .link {
+        font-size: 1.3rem;
+    }
+
+    .link:hover {
+        font-size: 1.3rem;
+    }
+
+    .smallheading {
+        font-size: 1rem;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .contact {
+        font-size: 1.3rem;
+
+    }
+
+    .contact:hover {
+        font-size: 1.3rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    ...
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    ...
+}
